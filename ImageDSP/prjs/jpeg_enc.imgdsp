@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imgdsp>
+<imgdsp>
+  <programs>
+    <program name="JPEG Encoder">
+      <params>
+        <param name="Quality" min="1" current="50" max="100"/>
+      </params>
+    </program>
+  </programs>
+  <in_imgs>
+    <in_img file_name="playing_kitten.jpg"/>
+    <in_img file_name="baboon.bmp"/>
+    <in_img file_name="green_cat.jpg"/>
+    <in_img file_name="Birthday.bmp"/>
+    <in_img file_name="CatWithGreenEyes.png"/>
+    <in_img file_name="Birthday2.jpg"/>
+  </in_imgs>
+  <out_imgs>
+    <out_img file_name="processed_img.jpg"/>
+  </out_imgs>
+</imgdsp>
